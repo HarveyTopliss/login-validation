@@ -1,0 +1,31 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1%;
+}
+
+div {
+  height: 45vh;
+  width: 40%;
+  margin-top: 5%;
+  padding: 1rem 0.2rem 0 0.2rem;
+  border: solid 1px #ddd;
+}
+
+[type='email'] {
+  margin-bottom: 1%;
+}
+
+.validation {
+  margin-top: 2%;
+  color: darkred;
+  font-size: 0.9rem;
+}
