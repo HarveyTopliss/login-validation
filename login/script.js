@@ -14,6 +14,7 @@ window.addEventListener('keydown', function (e) {
   let feedback;
   //if any input fields are empty
   if (userEmail === '' || userPassword === '') {
+    validation.style.color = 'red';
     feedback = 'Fill in required fields.';
   } else if (
     //check for invalid email
@@ -21,6 +22,7 @@ window.addEventListener('keydown', function (e) {
     !userEmail.includes('@') ||
     !userEmail.includes('.')
   ) {
+    validation.style.color = 'red';
     feedback = 'Enter a valid email address.';
   } else if (
     //check for invalid password
